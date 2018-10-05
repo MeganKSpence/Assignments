@@ -6,4 +6,6 @@ for (let i=0; i<=difference; i++){
   even = (startingnumber += skipcount) % 2;
   console.log("This number is", even, "; This iteration is number", i+skipcount, "the number is: ", );
 }
-if
+let points = even;
+let type = points > 0 ? 'even' : 'odd'
+console.log(type);
