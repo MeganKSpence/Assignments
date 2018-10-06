@@ -1,6 +1,3 @@
-width:30;
-console.log(width);
-height:60;
+let height = 36;
+let width = 20;
 console.log(height);
-
-if (height > width)
