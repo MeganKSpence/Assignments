@@ -1,12 +1,9 @@
 function biggerNumber (number1, number2){
-  let number = [4, 5];
-    if (number[0] > number[1]){
-      console.log("the bigger number is: " + number[0])
-    }
-    else if (number[0] < number[1]){
-      console.log("the bigger number is: " + number[1])
-    }
-    else if(number[0] === number[1]){
-      console.log("the numbers are equal")
-    }
+  if (number1 === number2) return 'the numbers are the same';
+  return (number1 > number2) ? (number1 + ' is the bigger number') : (number2 + ' is the bigger number');
 }
+
+let number1 = 3;
+let number2 = 6;
+console.log("the numbers are ", number1, " and ", number2)
+console.log(biggerNumber (number1, number2));
