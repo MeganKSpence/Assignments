@@ -1,1 +1,1 @@
-# Assignments
+# max of two numbers
