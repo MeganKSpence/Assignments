@@ -14,21 +14,12 @@ for (let i=0; i<=difference; i++){
   }
 }
 
-console.log("the even numbers are:");
-for (let i=0; i<=difference; i++){
-  even = (startingnumber += skipcount) % 2;
-    if (even === 0){
-         console.log(evenArray=[number[0] + i]);
-  }
+for (i=0; i<=difference; i++);
+  arrays = (number[0]+i) % 2;
+    if (arrays === 0){
+      console.log(arrays);
 }
 
-console.log("the odd numbers are:");
-for (let i=0; i<=difference; i++){
-  even = (startingnumber += skipcount) % 2;
-    if  (even === 1){
-     console.log(oddArray=[number[0] + i]);
-  }
-}
 //  console.log((even = 1) ? "This number is odd" : "This number is even");
 // console.log("This number is", even, "; This iteration is number", i+skipcount);
 
