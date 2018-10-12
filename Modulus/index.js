@@ -14,20 +14,9 @@ for (let i=0; i<=difference; i++){
   }
 }
 
-for (i=0; i<=difference; i++);
-  arrays = (number[0]+i) % 2;
-    if (arrays === 0){
-      console.log(arrays);
+for(let i=number[0];i<=difference;i++)
+{
+if((i%2)!=0){
+console.log(i)
 }
-
-//  console.log((even = 1) ? "This number is odd" : "This number is even");
-// console.log("This number is", even, "; This iteration is number", i+skipcount);
-
-//for (let i=0; i<=difference; i++){
-//  even = (startingnumber += skipcount) % 2;
-//  if (even === 0){
-//    let evenArray = [];
-//      evenArray = new Array(20);
-//        console.log(evenArray = [number[0]+i]);
-//  }
-//}
+}
