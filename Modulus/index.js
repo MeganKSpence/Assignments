@@ -14,6 +14,7 @@ for (let i=0; i<=difference; i++){
   }
 }
 
+<<<<<<< HEAD
 console.log("evenArray") //note: Odd and Even Array do not Work Properly, Only Work when number[0] is even, I tried my best but could not figure it out
 for (let i=0; i<=difference; i++){
   even = (startingnumber += skipcount) % 2;
@@ -35,3 +36,11 @@ for (let i=0; i<=difference; i++){
       "ignore"
     }
 }
+=======
+for(let i=number[0];i<=difference;i++)
+{
+if((i%2)!=0){
+console.log(i)
+}
+}
+>>>>>>> 29834a96332932be779b0b5f45d6614f4748d52c
